@@ -1,7 +1,6 @@
 #para instalar todos os pacotes usar o comando "pip install -r requirements.txt"
 from flask import Flask,request,jsonify
 from flask_restful import Api, Resource
-
 app = Flask(__name__)
 api = Api(app)
 
